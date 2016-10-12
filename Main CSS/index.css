@@ -164,6 +164,16 @@ body,html{
 	opacity: 1.5;
 	border-radius: 2px;
 }
+#box { 
+	float: right; 
+	top: 60%; 
+	width: 56%; 
+	height: 60%; 
+	left: 600px; 
+	transform: rotate(-25deg);
+ 	position: absolute; 
+ 	z-index: -10;
+}
 
 .a1 {
 	font-size: 65px;
