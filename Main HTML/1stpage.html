@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+		<title>Liger Digital Currency</title>
+    	<link type="text/css" rel="stylesheet" href="../Main CSS/1stpage.css">
+    	<script src="https://apis.google.com/js/platform.js" async defer></script>
+	<meta name="google-signin-client_id" content="492946916620-dhc5tgqduu9qo8mb1u6k1vssqk32teqc.apps.googleusercontent.com">
+   </head>
+   <body>
+   		<div class= "header">
+			<div id= "header-left"></div>
+			<img id= "logo" src="..\ICON\No-Logo.png"/>
+			<b><span class= "d">D</span></b>
+			<span class="igital">igital</span>
+			<b><span class="c">C</span></b>
+			<span class="urrency">urrency</span>
+			<div id= "header-right"></div>
+		</div>
+	<center>
+  <img id="body-logo" src="..\ICON\liger-logo.png"/> 
+  <img id="box" src= "..\ICON\box.png"/>
+  <img id="box1" src= "..\ICON\box.png"/>
+    <h1>WELCOME!</h1>
+  </center>
+  <div class="container"> 
+      <img src="../ICON/Profile.png" class="classprofile">
+    	<h2>Account Login</h2>
+    	<button href= "2ndpage.html">Login</button>
+  <center>
+  <a href="2ndpage.html">
+	<div class="g-signin2" data-onsuccess="onSignIn" data-redirecturi="http://localhost/Profile%20page/Profile%20page/profile.html/redirect_uri"></div>
+	<script type="text/javascript">
+		function onSignIn(googleUser) {
+  		var profile = googleUser.getBasicProfile();http://localhost/Profi/redirect_urile%20page/Profile%20page/profile.html/redirect_uri
+  		console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+  		console.log('Name: ' + profile.getName());
+  		console.log('Image URL: ' + profile.getImageUrl());
+  		console.log('Email: ' + profile.getEmail());
+  		document.getElementById("myP").style.visibility = "visible";
+	}
+	</script>
+	</center>
+	</a>
+  </center>
+  </div>
+  <div class="knowmore">Know More About</div>
+	<div id="container">
+     <a href="http://goo.gl/y5Rbx2" target="_blank">
+    <img src="../ICON/Account.png" style="width: 10vw; height:10vw;">
+    </a>
+    <a href="http://goo.gl/QCjCR7" target="_blank">
+    <img src="../ICON/Tutorial.png" style="width: 10vw; height:10vw;">
+    </a>
+    <a href="http://goo.gl/AkziXl" target="_blank">
+    <img src="../ICON/Exchange.png" style="width: 10vw; height:10vw;">
+    </a>
+    <br>
+    <p class="text"> About Us  Tutorial  Exchange</p>   
+  </div>
+</body>
+</html>

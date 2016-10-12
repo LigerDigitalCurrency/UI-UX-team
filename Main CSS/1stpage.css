@@ -1,0 +1,257 @@
+
+html {
+	background-color: #9ba6ff;
+}
+/*Keyframes and Webkit fadeInDown*/
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+}
+
+@-webkit-keyframes fadeInDown {
+from {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+}
+/*Keyframes and Webkit bounceInUp*/
+@keyframes bounceInUp {
+  from {
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+}
+
+@-webkit-keyframes bounceInUp {
+from {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+}
+.header{
+	float: left;
+	position: absolute;
+	left: 0vh;
+	background-color: #ffffff;
+	width: 100%;
+	height: 20%;
+	top: -1%;
+}
+#header-left{
+	float: left;
+	position: absolute;
+	left: 0vw;
+	background-color: #ff6768;
+	width: 6.5%;
+	height: 104%;
+	top: -0.4vw;
+}
+#header-right{
+	float: right;
+	position: absolute;
+	right: 0px;
+	background-color: #ff6768;
+	width: 6.5%;
+	height: 104%;
+	top: -.4vw;
+}
+#logo {
+	float: top;
+	width: 35vw;
+	height: 13.5vw;
+	position: absolute;
+	left: 12.5%;
+	bottom: 10%;
+}
+.d {
+	font-size: 16vh;
+	font-family: Verdana;
+	color: black;
+	position: absolute;
+	top: 5px;
+	left: 50%;
+}
+.igital {
+	font-size: 7vh;
+	font-family: verdana;
+	left: 56.5%;
+	color: black;
+	top: 45%;
+	position: absolute;
+}
+.c {
+	font-size: 16vh;
+	font-family: Verdana;
+	color: black;
+	position: absolute;
+	top: 5px;
+	left: 67%;
+}
+.urrency {
+	font-size: 7vh;
+	font-family: verdana;
+	left: 72.5%;
+	color: black;
+	top: 45%;
+	position: absolute;
+}
+#body-logo {
+	float: right;
+	width: 60%;
+	transform: rotate(-25deg);
+	position: absolute;
+	right: 5%;
+	bottom: 25%;
+	opacity: 0.3;
+	z-index: 1;
+}
+#box { 
+	float: right; 
+	top: 60%; 
+	width: 56%; 
+	height: 60%; 
+	left: 600px; 
+	transform: rotate(-25deg);
+ 	position: absolute; 
+ 	z-index: -10;
+}
+#box1 {
+	float: left; 
+	top: 60%; 
+	width: 20%; 
+	height: 65%; 
+	left: 5%; 
+	transform: rotate(70deg);
+ 	position: absolute; 
+ 	z-index: -10;
+}
+h1{
+	font-family: verdana;
+	color: white;
+	font-size: 8vh;
+	margin-top: 10.5%;
+	right: 50%;
+	animation-duration: 5s;
+    animation-delay: .5s;
+    animation-fill-mode: both;
+    animation-name: fadeInDown;
+}
+h2{
+	font-family: verdana;
+	color: #000000;
+	font-size: 2vw;
+	animation-duration: 5s;
+    animation-delay: .5s;
+    animation-fill-mode: both;
+    animation-name: bounceInUp;
+}
+body,html{
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.container{
+	width: 30vw;
+	height: 20vw;
+	text-align: center;
+	background-color:#c4ffa1; 
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: -21px;
+	z-index: -1;
+	padding-bottom: 30px;
+	position: absolute;
+	left:2.5%;
+}
+.container img{
+	width: 10vw;
+	height: 10vw;
+	margin-top: -20px;
+	margin-right: 30px;
+}
+#container{
+	float: right;
+	background-color:#AEEEAE; 
+	border-radius: 10px;
+	right: 2.5%;
+	margin: 0 auto;
+	margin-top: 5vh;
+	z-index: -1;
+	text-align: center;
+	position: absolute;
+}
+.text{
+	font-family: verdana;
+	font-size: 1.8vw;
+	color: #000000;
+	text-align: center;
+	font-weight: bold;
+	animation-duration: 5s;
+    animation-delay: .5s;
+    animation-fill-mode: both;
+    animation-name: bounceInUp;
+}
+.learn{
+	float: right;
+	position: absolute;
+	margin-top: -15px;
+	margin: 0 auto;
+	right: 1%;
+}
+.classprofile{
+	width: 10vw;
+	height: 10vw;
+	align: center;
+}
+#body-logo {
+	float: right;
+	width: 60%;
+	transform: rotate(-25deg);
+	position: absolute;
+	right: 5%;
+	bottom: 25%;
+	opacity: 0.3;
+	z-index: -1;
+}
+
+#box { 
+	float: right; 
+	top: 150px; 
+	width: 56%; 
+	height: 800px; 
+	left: 600px; 
+	transform: rotate(-25deg);
+ 	position: absolute; 
+ 	z-index: -10;
+}
+.knowmore{
+	border-radius: 10px;
+	right: 3%;
+	margin: 0 auto;
+	margin-top: -4vh;
+	text-align: right;
+	font-size: 6vh;
+	font-family: verdana;
+	font-weight: bold;
+	opacity: .8;
+	position: absolute;
+}
