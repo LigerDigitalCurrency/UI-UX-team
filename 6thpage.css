@@ -1,0 +1,92 @@
+
+html {
+	background-color: #9ba6ff;
+}
+
+.header{
+	float: left;
+	position: absolute;
+	left: 0px;
+	background-color: #ffffff;
+	width: 100%;
+	height: 20%;
+	top: -1%;
+}
+#header-left{
+	float: left;
+	position: absolute;
+	left: 0px;
+	background-color: #ff6768;
+	width: 6.5%;
+	height: 104%;
+	top: -5px;
+}
+#header-right{
+	float: right;
+	position: absolute;
+	right: 0px;
+	background-color: #ff6768;
+	width: 6.5%;
+	height: 104%;
+	top: -5px;
+}
+#logo {
+	float: top;
+	width: 35%;
+	height: 120%;
+	position: absolute;
+	left: 12.5%;
+	bottom: 17%;
+}
+.d {
+	font-size: 16vh;
+	font-family: Verdana;
+	color: black;
+	position: absolute;
+	top: 5px;
+	left: 680px;
+}
+.igital {
+	font-size: 7vh;
+	font-family: verdana;
+	left: 770px;
+	color: black;
+	top: 63px;
+	position: absolute;
+}
+.c {
+	font-size: 16vh;
+	font-family: Verdana;
+	color: black;
+	position: absolute;
+	top: 5px;
+	left: 910px;
+}
+.urrency {
+	font-size: 7vh;
+	font-family: verdana;
+	left: 987px;
+	color: black;
+	top: 63px;
+	position: absolute;
+}
+h1{
+	font-family: verdana;
+	color: white;
+	font-size: 8vh;
+	margin-top: 10.5%;
+	right: 50%;
+}
+body,html{
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+#arrowback {
+	left: -1.8%;
+	top: 1.5%;
+	position: absolute;
+	float: left;
+	z-index: 5;
+	width: 150px;
+	height: 150px;
+}
