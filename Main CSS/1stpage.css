@@ -2,33 +2,6 @@
 html {
 	background-color: #9ba6ff;
 }
-.unselectable {
-    /* For Opera and <= IE9, we need to add unselectable="on" attribute onto each element */
-    /* Check this site for more details: http://help.dottoro.com/lhwdpnva.php */
-    -moz-user-select: none; /* These user-select properties are inheritable, used to prevent text selection */
-    -webkit-user-select: none;
-    -ms-user-select: none; /* From IE10 only */
-    user-select: none; /* Not valid CSS yet, as of July 2012 */
-
-    -webkit-user-drag: none; /* Prevents dragging of images/divs etc */
-    user-drag: none;
-}
-
-var makeUnselectable = function( $target ) {
-    $target
-        .addClass( 'unselectable' ) // All these attributes are inheritable
-        .attr( 'unselectable', 'on' ) // For IE9 - This property is not inherited, needs to be placed onto everything
-        .attr( 'draggable', 'false' ) // For moz and webkit, although Firefox 16 ignores this when -moz-user-select: none; is set, it's like these properties are mutually exclusive, seems to be a bug.
-        .on( 'dragstart', function() { return false; } );  // Needed since Firefox 16 seems to ingore the 'draggable' attribute we just applied above when '-moz-user-select: none' is applied to the CSS 
-
-    $target // Apply non-inheritable properties to the child elements
-        .find( '*' )
-        .attr( 'draggable', 'false' )
-        .attr( 'unselectable', 'on' ); 
-};
-img {
-    pointer-events: none;
-}
 /*Keyframes and Webkit fadeInDown*/
 @keyframes fadeInDown {
   from {
