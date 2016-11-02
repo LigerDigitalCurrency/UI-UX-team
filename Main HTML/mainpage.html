@@ -2,7 +2,7 @@
 <html>
    <head>
     <title>Liger Digital Currency</title>
-      <link type="text/css" rel="stylesheet" href="../Main CSS/2ndpage.css"/>
+      <link type="text/css" rel="stylesheet" href="../Main CSS/mainpage.css"/>
                   <form name="login" id="login">
                     Username<input type="text" name="userid"/>
                   <br>
@@ -37,21 +37,21 @@
       </div>
       <b><span class="budget">BUDGET</span></b>
       <div id="budget-box"><h1 id="get">jksjsjkjfkd</h1></div>
-      <a href="3rdpage.html">
+      <a href="exchange.html">
       <div id="exchange-box">
           <b><span class="exchange">EXCHANGE</span></b>
           <img id="exchange-logo" src= "..\ICON\exchange.png"/>
       </div>
       </a>
       <br>
-      <a href="4thpage.html">
+      <a href="transfer.html">
       <div id="transfer-box"> 
           <b><span class="transfer">TRANSFER!</span></b>
           <img id="transfer-logo" src="../ICON/transfer.png"/>
       </div>
       </a>
       <br>
-      <a href="5thpage.html">
+      <a href="profile.html">
       <div id="profile-box">
           <b><span class="profile">PROFILE!</span></b>
           <img id="profile-logo" src= "..\ICON\profile.png"/>
@@ -85,8 +85,6 @@
           url = "https://spreadsheets.google.com/feeds/list/" +
           spreadsheetId + "/2/public/values?alt=json";
 
-		  
-		  
           var user = form["userid"].value.toLowerCase();
         $.get({
           url: url,
